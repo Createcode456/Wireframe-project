@@ -1,0 +1,141 @@
+*{
+  font-family: "Montserrat", sans-serif;
+}
+
+
+.top {
+    background-image: url(images/aidan-hancock-8RU4OuA6Yug-unsplash.png);
+    height: 100vh;
+    width: 100vw;
+ background-repeat: no-repeat;
+ background-size: cover;
+   
+}
+
+.start {
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 210px;
+}
+
+
+  
+    .about{
+        text-align: center;
+        padding:10%;
+      padding-left:20px;
+        padding-top:210px;
+    }
+    .image{
+        height: 30%;
+        width: 100%;
+    }
+
+    .sec3{
+        background-color: rgb(16, 201, 195);
+        padding: 10%;
+        color:white;
+        
+    }
+
+    .container {
+        position: relative;
+      
+      }
+      
+      .image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+      }
+      
+      .middle {
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      
+      .container:hover .image {
+        opacity: .5;
+      }
+      
+      .container:hover .middle {
+        opacity: 10;
+      }
+      .sec4{
+        background-color: rgb(245, 245, 245);
+        padding: 3%;
+        }
+        h4 {
+    
+            text-align: center;
+            
+                }
+              
+                .services{
+                    text-align: center;
+                    padding:10%;
+
+                
+                }
+
+
+.ser {
+text-align: center;
+padding-left: 1%;
+padding-right: 1%;
+}
+.sec5 {
+  background-color: rgb(16, 201, 195);
+  padding: 10%;
+  color:white;
+  text-align: center;
+}
+
+.tes {
+  text-align: center;
+  padding: 10%;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #cccccc00; /* Gray border */
+
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #13cfc0;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #13cfc0;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+
