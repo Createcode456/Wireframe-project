@@ -12,10 +12,15 @@
    
 }
 
+.bar{
+  color:#13cfc0;
+}
+
 .start {
     text-align: center;
-    padding-left: 20px;
-    padding-top: 210px;
+    padding-top:20%;
+    padding-right: 10%;
+
 }
 
 
@@ -138,4 +143,7 @@ padding-right: 1%;
     padding: 20px;
   }
 
+  .footer{
+    color:white
+  }
 
